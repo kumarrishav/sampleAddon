@@ -1,0 +1,15 @@
+{
+    "manifest_version": 1,
+    "name": "Add-on example",
+    "description": "Firefox OS add-on example",
+    "version": "1.0",
+    "author": "Chris Mills",
+    "content_scripts": [{
+      "matches": ["app://sms.gaiamobile.org/index.html"],
+      "css": [],
+      "js": ["index.js"]
+    }],
+    "icons": {
+      "128": "128.png"
+    }
+}
