@@ -1,5 +1,5 @@
 // If injecting into an app that was already running at the time
-// the app was enabled, simply initialize it.
+// the app was, simply initialize it.
 if (document.documentElement) {
   initialize();
 }
